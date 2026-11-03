@@ -1,0 +1,102 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Yuyu Short", sans-serif;
+  font-size: 2rem;
+  background-color: #FFEBD3;
+  color: #1a1a1a;
+  line-height: 1.6;
+  padding: 40px 20px;
+}
+
+
+.covercontainer {
+  max-width: 800px;
+  margin: 0 auto;
+  display: block;
+}
+
+.coverheader {
+  text-align: center;
+  margin-bottom: 60px;
+  width: 100%;
+}
+
+.coverheader h1 {
+  font-size: 4rem;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  border-bottom: 4px solid #1a1a1a;
+  padding-bottom: 12px;
+  margin-bottom: 8px;
+  display: block;
+  font-family: "Fascinate", system-ui;
+}
+
+.coverheader h2 {
+  font-size: 2rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: #666666;
+}
+
+.cover {
+  margin-bottom: 60px;
+  display: block;
+}
+
+.cover h3 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+  padding-left: 15px;
+}
+
+
+.cover img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.cover img:hover {
+ animation: wiggle 0.5s ease-in-out infinite;
+}
+
+
+@keyframes wiggle {
+  0% {
+      rotate: 0deg;
+      translate: 0 0
+  }
+
+  25% {
+      rotate: -2deg;
+      translate: -5px 0
+  }
+
+  80% {
+      rotate: 2deg;
+      translate: 5px 0
+  }
+}
+.fascinate-regular {
+  font-family: "Fascinate", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.yuyu-short-regular {
+  font-family: "Yuyu Short", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
